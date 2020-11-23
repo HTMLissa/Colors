@@ -1,0 +1,78 @@
+body {
+    background-color: #232323; 
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: white;
+    font-weight: 200; 
+}
+
+p {
+    text-align: center;
+    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px; 
+}
+
+#colorDisplay {
+    text-align: center;
+    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+}
+
+button {
+    border: 1px solid white;  
+    color: white;
+    background-color: #232323;
+    padding: 10px; 
+    border-radius: 8px;
+    transition: 0.3s all ease-in-out;
+}
+
+button:hover {
+    background-color: white; 
+    color: #232323;
+}
+
+.square {
+    width: 30%; 
+    padding-bottom: 30%; 
+    margin-top: 5%; 
+    background-color: white; 
+    border-radius: 19%;
+    transition: 0.5s all ease-in-out;  
+
+    animation-name: squareframe;
+    animation-duration: 0.5s; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+}
+
+.header {
+    text-align: center; 
+}
+
+@keyframes squareframe {
+    0% {
+        transform: rotate(20deg); 
+    }
+    50% {
+        transform: rotate(-40deg);
+    }
+    100% {
+        transform: rotate(20deg); 
+    }
+}
